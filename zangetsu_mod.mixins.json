@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.zangetsumod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ChunkMapAccessor", "TrackedEntityMixin", "PlayerListMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

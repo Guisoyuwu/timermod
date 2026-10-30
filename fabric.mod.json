@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "zangetsu_mod",
+  "version": "${version}",
+  "name": "Zangetsu Mod",
+  "description": "Timers, vanish, palos de admin y la espada Zangetsu con Getsuga Tensho.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.zangetsumod.ZangetsuMod"],
+    "client": ["com.zangetsumod.client.ZangetsuModClient"]
+  },
+  "mixins": ["zangetsu_mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
